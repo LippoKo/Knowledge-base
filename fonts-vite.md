@@ -22,5 +22,12 @@ Copy the fonts and paste inside of your project in the folder assets/fonts
 
 Open the fonts.scss file that was generate with the command gulp inside the folder src/scss/partials and copy the styles inside of your project in the style.css file 
 
+# Step 6: Change the path
+
+In styles.css change the path, replace the '..' to 'assets' for all the fonts.
+
+Go to my.scss file in your project and comment that line
+@import "partials/fonts";
+
 # Done
 
